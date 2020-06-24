@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>974243658556-6dcp9h6gnrhrumu3bke4p3lqou37s8en.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.974243658556-6dcp9h6gnrhrumu3bke4p3lqou37s8en</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBqokmEFDwbzS-1k0sfAbfQSjQY6ziNG04</string>
+	<key>GCM_SENDER_ID</key>
+	<string>974243658556</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>je.JETalk</string>
+	<key>PROJECT_ID</key>
+	<string>jetalk-bb75c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>jetalk-bb75c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:974243658556:ios:dd28b1e1f2f1bf5baa7c39</string>
+	<key>DATABASE_URL</key>
+	<string>https://jetalk-bb75c.firebaseio.com</string>
+</dict>
+</plist>
