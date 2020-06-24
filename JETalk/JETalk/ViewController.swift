@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import SnapKit
 
 class ViewController: UIViewController {
+    var box = UIImageView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.view.addSubview(box)
+        
     }
 
 

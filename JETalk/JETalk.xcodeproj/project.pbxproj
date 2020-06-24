@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8944214024A3877E00C604EF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8944213F24A3877E00C604EF /* GoogleService-Info.plist */; };
 		89D9CC7724A387370062042E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D9CC7624A387370062042E /* AppDelegate.swift */; };
 		89D9CC7924A387370062042E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D9CC7824A387370062042E /* SceneDelegate.swift */; };
 		89D9CC7B24A387370062042E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D9CC7A24A387370062042E /* ViewController.swift */; };
 		89D9CC7E24A387370062042E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D9CC7C24A387370062042E /* Main.storyboard */; };
 		89D9CC8024A387380062042E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D9CC7F24A387380062042E /* Assets.xcassets */; };
 		89D9CC8324A387380062042E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D9CC8124A387380062042E /* LaunchScreen.storyboard */; };
+		95C66CBCD43D65CB934D00C0 /* Pods_JETalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF610288D2FFC159028D30B7 /* Pods_JETalk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35AD9A0827566FD58BE53FEA /* Pods-JETalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JETalk.release.xcconfig"; path = "Target Support Files/Pods-JETalk/Pods-JETalk.release.xcconfig"; sourceTree = "<group>"; };
+		8944213F24A3877E00C604EF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		89D9CC7324A387370062042E /* JETalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JETalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D9CC7624A387370062042E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89D9CC7824A387370062042E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		89D9CC7F24A387380062042E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89D9CC8224A387380062042E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89D9CC8424A387380062042E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF610288D2FFC159028D30B7 /* Pods_JETalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JETalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCEC42F30424F1D9CE9FBF2E /* Pods-JETalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JETalk.debug.xcconfig"; path = "Target Support Files/Pods-JETalk/Pods-JETalk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95C66CBCD43D65CB934D00C0 /* Pods_JETalk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67E02833E293902F26B701D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCEC42F30424F1D9CE9FBF2E /* Pods-JETalk.debug.xcconfig */,
+				35AD9A0827566FD58BE53FEA /* Pods-JETalk.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		89D9CC6A24A387370062042E = {
 			isa = PBXGroup;
 			children = (
 				89D9CC7524A387370062042E /* JETalk */,
 				89D9CC7424A387370062042E /* Products */,
+				67E02833E293902F26B701D3 /* Pods */,
+				EF58902015BB1B6FA97A7794 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +75,7 @@
 		89D9CC7524A387370062042E /* JETalk */ = {
 			isa = PBXGroup;
 			children = (
+				8944213F24A3877E00C604EF /* GoogleService-Info.plist */,
 				89D9CC7624A387370062042E /* AppDelegate.swift */,
 				89D9CC7824A387370062042E /* SceneDelegate.swift */,
 				89D9CC7A24A387370062042E /* ViewController.swift */,
@@ -67,6 +87,14 @@
 			path = JETalk;
 			sourceTree = "<group>";
 		};
+		EF58902015BB1B6FA97A7794 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF610288D2FFC159028D30B7 /* Pods_JETalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89D9CC8724A387380062042E /* Build configuration list for PBXNativeTarget "JETalk" */;
 			buildPhases = (
+				E1815C667B2801CDABA5CE6E /* [CP] Check Pods Manifest.lock */,
 				89D9CC6F24A387370062042E /* Sources */,
 				89D9CC7024A387370062042E /* Frameworks */,
 				89D9CC7124A387370062042E /* Resources */,
+				790D8FCB8E17229C07AFD680 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +156,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				89D9CC8324A387380062042E /* LaunchScreen.storyboard in Resources */,
+				8944214024A3877E00C604EF /* GoogleService-Info.plist in Resources */,
 				89D9CC8024A387380062042E /* Assets.xcassets in Resources */,
 				89D9CC7E24A387370062042E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		790D8FCB8E17229C07AFD680 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JETalk/Pods-JETalk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JETalk/Pods-JETalk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JETalk/Pods-JETalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1815C667B2801CDABA5CE6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JETalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		89D9CC6F24A387370062042E /* Sources */ = {
@@ -282,6 +355,7 @@
 		};
 		89D9CC8824A387380062042E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCEC42F30424F1D9CE9FBF2E /* Pods-JETalk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +374,7 @@
 		};
 		89D9CC8924A387380062042E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35AD9A0827566FD58BE53FEA /* Pods-JETalk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
